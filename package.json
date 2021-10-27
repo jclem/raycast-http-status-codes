@@ -1,0 +1,38 @@
+{
+  "name": "http-status-codes",
+  "description": "Search and view information on HTTP status codes.",
+  "version": "0.0.0",
+  "author": "jclem",
+  "commands": [
+    {
+      "name": "search-http-status-codes",
+      "title": "Search HTTP status codes",
+      "subtitle": "",
+      "description": "",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.25.1"
+  },
+  "devDependencies": {
+    "@types/node": "~16.10.0",
+    "@types/react": "^17.0.28",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "react-devtools": "^4.19.2",
+    "typescript": "^4.4.3"
+  },
+  "icon": "command-icon.png",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop"
+  },
+  "title": "HTTP Status Codes"
+}
